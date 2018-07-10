@@ -1,0 +1,7 @@
+/home/elvis/workspace/cmake-programs/CMakeFiles/rebuild_cache.dir
+/home/elvis/workspace/cmake-programs/CMakeFiles/edit_cache.dir
+/home/elvis/workspace/cmake-programs/CMakeFiles/hello.dir
+/home/elvis/workspace/cmake-programs/math/CMakeFiles/rebuild_cache.dir
+/home/elvis/workspace/cmake-programs/math/CMakeFiles/MathFunctions.dir
+/home/elvis/workspace/cmake-programs/math/CMakeFiles/edit_cache.dir
+/home/elvis/workspace/cmake-programs/math/CMakeFiles/math.dir
