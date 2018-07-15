@@ -5,5 +5,4 @@ project (hello)
 aux_source_directory (. DIR_SRCS)
 
 add_subdirectory (math)
-
-add_executable (hello ${DIR_SRCS})
+add_subdirectory (test)

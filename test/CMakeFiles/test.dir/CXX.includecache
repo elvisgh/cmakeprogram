@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/elvis/workspace/cmake-programs/hello.cpp
-iostream
--
-math/math.h
 /home/elvis/workspace/cmake-programs/math/math.h
 
+/home/elvis/workspace/cmake-programs/test/test.cpp
+iostream
+-
+../math/math.h
 /home/elvis/workspace/cmake-programs/math/math.h
 

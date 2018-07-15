@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/elvis/workspace/cmake-programs/hello.cpp" "/home/elvis/workspace/cmake-programs/CMakeFiles/hello.dir/hello.cpp.o"
+  "/home/elvis/workspace/cmake-programs/math/math.cpp" "/home/elvis/workspace/cmake-programs/math/CMakeFiles/MathFunctions.dir/math.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,7 +14,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/elvis/workspace/cmake-programs/math/CMakeFiles/MathFunction.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

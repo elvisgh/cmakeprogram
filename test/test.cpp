@@ -1,7 +1,9 @@
 #include <iostream>
 
+#include "../math/math.h"
+
 int main()
 {
-    std::cout << "hello cmake." << std::endl;
+    display();
     return 0;
 }

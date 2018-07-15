@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/elvis/workspace/cmake-programs/hello.cpp
+/home/elvis/workspace/cmake-programs/math/math.cpp
 iostream
 -
-math/math.h
+math.h
 /home/elvis/workspace/cmake-programs/math/math.h
 
 /home/elvis/workspace/cmake-programs/math/math.h

@@ -1,8 +1,9 @@
 
 #include <iostream>
 
-int main()
+#include "math.h"
+
+void display()
 {
-    std::cout << "hello, this is a math demo." << std::endl;
-    return 0;
+    std::cout << "YOU ARE USING MATH FUNCTION!" << std::endl;
 }
