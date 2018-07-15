@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/elvis/workspace/cmake-programs/test/rapidjsontest.cpp" "/home/elvis/workspace/cmake-programs/test/CMakeFiles/test.dir/rapidjsontest.cpp.o"
   "/home/elvis/workspace/cmake-programs/test/test.cpp" "/home/elvis/workspace/cmake-programs/test/CMakeFiles/test.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "test/../libs"
   )
 
 # Targets to which this target links.

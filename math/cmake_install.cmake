@@ -37,3 +37,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/elvis/workspace/cmake-programs/math/src/cmake_install.cmake")
+  include("/home/elvis/workspace/cmake-programs/math/test/cmake_install.cmake")
+
+endif()
+

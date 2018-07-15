@@ -110,48 +110,6 @@ depend:
 	cd /home/elvis/workspace/cmake-programs && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-math/CMakeFiles/MathFunction.dir/rule:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f CMakeFiles/Makefile2 math/CMakeFiles/MathFunction.dir/rule
-.PHONY : math/CMakeFiles/MathFunction.dir/rule
-
-# Convenience name for target.
-MathFunction: math/CMakeFiles/MathFunction.dir/rule
-
-.PHONY : MathFunction
-
-# fast build rule for target.
-MathFunction/fast:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f math/CMakeFiles/MathFunction.dir/build.make math/CMakeFiles/MathFunction.dir/build
-.PHONY : MathFunction/fast
-
-math.o: math.cpp.o
-
-.PHONY : math.o
-
-# target to build an object file
-math.cpp.o:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f math/CMakeFiles/MathFunction.dir/build.make math/CMakeFiles/MathFunction.dir/math.cpp.o
-.PHONY : math.cpp.o
-
-math.i: math.cpp.i
-
-.PHONY : math.i
-
-# target to preprocess a source file
-math.cpp.i:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f math/CMakeFiles/MathFunction.dir/build.make math/CMakeFiles/MathFunction.dir/math.cpp.i
-.PHONY : math.cpp.i
-
-math.s: math.cpp.s
-
-.PHONY : math.s
-
-# target to generate assembly for a file
-math.cpp.s:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f math/CMakeFiles/MathFunction.dir/build.make math/CMakeFiles/MathFunction.dir/math.cpp.s
-.PHONY : math.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,10 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... MathFunction"
-	@echo "... math.o"
-	@echo "... math.i"
-	@echo "... math.s"
 .PHONY : help
 
 

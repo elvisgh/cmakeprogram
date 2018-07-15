@@ -12,6 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.11.4/CMakeSystem.cmake"
   "CMakeLists.txt"
   "math/CMakeLists.txt"
+  "math/src/CMakeLists.txt"
+  "math/test/CMakeLists.txt"
   "test/CMakeLists.txt"
   "/usr/local/share/cmake-3.11/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.11/Modules/CMakeCXXInformation.cmake"
@@ -41,12 +43,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "math/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "math/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "math/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "math/test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "math/CMakeFiles/MathFunction.dir/DependInfo.cmake"
-  "test/CMakeFiles/test.dir/DependInfo.cmake"
+  "test/CMakeFiles/rapidjson.dir/DependInfo.cmake"
+  "math/src/CMakeFiles/mathfunctions.dir/DependInfo.cmake"
+  "math/test/CMakeFiles/testmath.dir/DependInfo.cmake"
   )

@@ -111,30 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MathFunction
+# Target rules for targets named rapidjson
 
 # Build rule for target.
-MathFunction: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MathFunction
-.PHONY : MathFunction
+rapidjson: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rapidjson
+.PHONY : rapidjson
 
 # fast build rule for target.
-MathFunction/fast:
-	$(MAKE) -f math/CMakeFiles/MathFunction.dir/build.make math/CMakeFiles/MathFunction.dir/build
-.PHONY : MathFunction/fast
+rapidjson/fast:
+	$(MAKE) -f test/CMakeFiles/rapidjson.dir/build.make test/CMakeFiles/rapidjson.dir/build
+.PHONY : rapidjson/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named mathfunctions
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
+mathfunctions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mathfunctions
+.PHONY : mathfunctions
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
+mathfunctions/fast:
+	$(MAKE) -f math/src/CMakeFiles/mathfunctions.dir/build.make math/src/CMakeFiles/mathfunctions.dir/build
+.PHONY : mathfunctions/fast
+
+#=============================================================================
+# Target rules for targets named testmath
+
+# Build rule for target.
+testmath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testmath
+.PHONY : testmath
+
+# fast build rule for target.
+testmath/fast:
+	$(MAKE) -f math/test/CMakeFiles/testmath.dir/build.make math/test/CMakeFiles/testmath.dir/build
+.PHONY : testmath/fast
 
 # Help Target
 help:
@@ -144,8 +157,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... MathFunction"
-	@echo "... test"
+	@echo "... rapidjson"
+	@echo "... mathfunctions"
+	@echo "... testmath"
 .PHONY : help
 
 

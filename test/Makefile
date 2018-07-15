@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/elvis/workspace/cmake-programs
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,46 +111,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/test.dir/rule:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
-.PHONY : test/CMakeFiles/test.dir/rule
+test/CMakeFiles/rapidjson.dir/rule:
+	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/rapidjson.dir/rule
+.PHONY : test/CMakeFiles/rapidjson.dir/rule
 
 # Convenience name for target.
-test: test/CMakeFiles/test.dir/rule
+rapidjson: test/CMakeFiles/rapidjson.dir/rule
 
-.PHONY : test
+.PHONY : rapidjson
 
 # fast build rule for target.
-test/fast:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
+rapidjson/fast:
+	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/rapidjson.dir/build.make test/CMakeFiles/rapidjson.dir/build
+.PHONY : rapidjson/fast
 
-test.o: test.cpp.o
+rapidjsontest.o: rapidjsontest.cpp.o
 
-.PHONY : test.o
+.PHONY : rapidjsontest.o
 
 # target to build an object file
-test.cpp.o:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
+rapidjsontest.cpp.o:
+	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/rapidjson.dir/build.make test/CMakeFiles/rapidjson.dir/rapidjsontest.cpp.o
+.PHONY : rapidjsontest.cpp.o
 
-test.i: test.cpp.i
+rapidjsontest.i: rapidjsontest.cpp.i
 
-.PHONY : test.i
+.PHONY : rapidjsontest.i
 
 # target to preprocess a source file
-test.cpp.i:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
+rapidjsontest.cpp.i:
+	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/rapidjson.dir/build.make test/CMakeFiles/rapidjson.dir/rapidjsontest.cpp.i
+.PHONY : rapidjsontest.cpp.i
 
-test.s: test.cpp.s
+rapidjsontest.s: rapidjsontest.cpp.s
 
-.PHONY : test.s
+.PHONY : rapidjsontest.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
+rapidjsontest.cpp.s:
+	cd /home/elvis/workspace/cmake-programs && $(MAKE) -f test/CMakeFiles/rapidjson.dir/build.make test/CMakeFiles/rapidjson.dir/rapidjsontest.cpp.s
+.PHONY : rapidjsontest.cpp.s
 
 # Help Target
 help:
@@ -158,12 +158,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... rebuild_cache"
+	@echo "... rapidjson"
+	@echo "... rapidjsontest.o"
+	@echo "... rapidjsontest.i"
+	@echo "... rapidjsontest.s"
 .PHONY : help
 
 
