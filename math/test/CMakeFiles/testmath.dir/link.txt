@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/testmath.dir/testmath.cpp.o  -o testmath  -L/home/elvis/workspace/cmake-programs/libs -Wl,-rpath,/home/elvis/workspace/cmake-programs/libs ../src/libmathfunctions.a 

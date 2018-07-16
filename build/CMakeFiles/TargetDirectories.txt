@@ -1,0 +1,13 @@
+/home/elvis/workspace/cmakeprograms/build/CMakeFiles/rebuild_cache.dir
+/home/elvis/workspace/cmakeprograms/build/CMakeFiles/edit_cache.dir
+/home/elvis/workspace/cmakeprograms/build/test/CMakeFiles/edit_cache.dir
+/home/elvis/workspace/cmakeprograms/build/test/CMakeFiles/rebuild_cache.dir
+/home/elvis/workspace/cmakeprograms/build/test/CMakeFiles/rapidjson.dir
+/home/elvis/workspace/cmakeprograms/build/math/CMakeFiles/rebuild_cache.dir
+/home/elvis/workspace/cmakeprograms/build/math/CMakeFiles/edit_cache.dir
+/home/elvis/workspace/cmakeprograms/build/math/src/CMakeFiles/rebuild_cache.dir
+/home/elvis/workspace/cmakeprograms/build/math/src/CMakeFiles/edit_cache.dir
+/home/elvis/workspace/cmakeprograms/build/math/src/CMakeFiles/mathfunctions.dir
+/home/elvis/workspace/cmakeprograms/build/math/test/CMakeFiles/rebuild_cache.dir
+/home/elvis/workspace/cmakeprograms/build/math/test/CMakeFiles/edit_cache.dir
+/home/elvis/workspace/cmakeprograms/build/math/test/CMakeFiles/testmath.dir

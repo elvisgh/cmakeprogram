@@ -1,10 +1,12 @@
 cmake_minimum_required (VERSION 2.8)
 
-project (cmakeproject)
+project (CMAKE_PROJECT)
 
 #include diresctories
 include_directories (${PROJECT_SOURCE_DIR}/math/include)
 include_directories (${PROJECT_SOURCE_DIR}/libs)
+
+set (LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/libs)
 
 #lib directories
 link_directories (${PROJECT_BINARY_DIR}/libs)
